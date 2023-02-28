@@ -10,7 +10,7 @@ dependencies:
 
 dev_dependencies:
   custom_lint: ^0.2.0
-  mocktail_lint:
+  a_lint:
     path: ../
 
 dependency_overrides:

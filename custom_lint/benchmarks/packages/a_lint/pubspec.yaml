@@ -1,4 +1,4 @@
-name: mocktail_lint
+name: a_lint
 version: 0.0.1
 publish_to: none
 
@@ -15,4 +15,3 @@ dependencies:
 dev_dependencies:
   custom_lint: ^0.2.0
   test: ^1.16.0
-  mocktail: ^0.3.0

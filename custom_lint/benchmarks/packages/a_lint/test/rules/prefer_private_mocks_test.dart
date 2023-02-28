@@ -5,7 +5,7 @@ import 'package:analyzer/error/listener.dart';
 import 'package:analyzer/src/generated/source.dart';
 import 'package:custom_lint_builder/custom_lint_builder.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:mocktail_lint/rules/rules.dart';
+import 'package:a_lint/rules/rules.dart';
 import 'package:test/test.dart';
 
 class _MockCustomLintResolver extends Mock implements CustomLintResolver {}
