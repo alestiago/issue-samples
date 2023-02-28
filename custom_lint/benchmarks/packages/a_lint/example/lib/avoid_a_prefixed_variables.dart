@@ -3,5 +3,3 @@ final a = 10;
 
 // expect_lint: avoid_a_prefixed_variables
 final avar = 10;
-
-final bvar = 10;
