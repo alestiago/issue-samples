@@ -1,0 +1,11 @@
+name: custom_lint_dummy_plugin
+description: A mason brick that generates `custom_lint` dummy plugins.
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.46 <0.1.0"
+
+vars:
+  prefix:
+    type: string
+    description: The prefix that will not be allowed.
