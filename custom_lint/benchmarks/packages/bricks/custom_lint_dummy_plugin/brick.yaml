@@ -8,4 +8,5 @@ environment:
 vars:
   prefix:
     type: string
-    description: The prefix that will not be allowed.
+    description: The prefix that will not be allowed in variable names.
+    prompt: What variable prefix should not be allowed?
