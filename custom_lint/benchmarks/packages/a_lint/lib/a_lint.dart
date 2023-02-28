@@ -7,7 +7,6 @@ PluginBase createPlugin() => _ALint();
 class _ALint extends PluginBase {
   @override
   List<LintRule> getLintRules(CustomLintConfigs configs) => [
-        PreferPrivateMocks(),
         AvoidAPrefixedVariables(),
       ];
 }
