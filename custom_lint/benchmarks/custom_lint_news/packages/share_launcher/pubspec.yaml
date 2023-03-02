@@ -20,3 +20,58 @@ dev_dependencies:
   plugin_platform_interface: ^2.1.2
   url_launcher_platform_interface: ^2.0.5
   very_good_analysis: ^4.0.0
+  custom_lint: ^0.2.0
+  a_lint:
+    path: ../../../packages/a_lint
+  b_lint:
+    path: ../../../packages/b_lint
+  c_lint:
+    path: ../../../packages/c_lint
+  d_lint:
+    path: ../../../packages/d_lint
+  e_lint:
+    path: ../../../packages/e_lint
+  f_lint:
+    path: ../../../packages/f_lint
+  g_lint:
+    path: ../../../packages/g_lint
+  h_lint:
+    path: ../../../packages/h_lint
+  i_lint:
+    path: ../../../packages/i_lint
+  j_lint:
+    path: ../../../packages/j_lint
+  k_lint:
+    path: ../../../packages/k_lint
+  l_lint:
+    path: ../../../packages/l_lint
+  m_lint:
+    path: ../../../packages/m_lint
+  n_lint:
+    path: ../../../packages/n_lint
+  o_lint:
+    path: ../../../packages/o_lint
+  p_lint:
+    path: ../../../packages/p_lint
+  q_lint:
+    path: ../../../packages/q_lint
+  r_lint:
+    path: ../../../packages/r_lint
+  s_lint:
+    path: ../../../packages/s_lint
+  t_lint:
+    path: ../../../packages/t_lint
+  u_lint:
+    path: ../../../packages/u_lint
+  v_lint:
+    path: ../../../packages/v_lint
+  w_lint:
+    path: ../../../packages/w_lint
+  x_lint:
+    path: ../../../packages/x_lint
+  y_lint:
+    path: ../../../packages/y_lint
+
+dependency_overrides:
+  custom_lint: ^0.2.0
+  custom_lint_builder: ^0.2.0
