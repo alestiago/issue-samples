@@ -346,7 +346,7 @@ packages:
     source: hosted
     version: "0.2.12"
   custom_lint_builder:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: custom_lint_builder
       sha256: "4f4d640f86a4d8b938e27840a1c712f79c33c47e7ce373e0b9b9abe30451a61c"

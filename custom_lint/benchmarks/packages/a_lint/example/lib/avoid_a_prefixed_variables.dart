@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 // expect_lint: avoid_a_prefixed_variables
 final a = 10;
 
