@@ -1,4 +1,4 @@
-# 🐛 Issues
+# Issues
 
 This repository stores reproductive samples of issues present in different codebases. Reproductive **samples are stored in branches**.
 
