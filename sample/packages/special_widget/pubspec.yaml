@@ -1,0 +1,14 @@
+name: special_widget
+description: A dummy package that has a developer dependency on bloc 8.1.1.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  bloc: 8.1.1
