@@ -1,8 +1,21 @@
 # Issue repository
 
-This repository stores reproductive samples of issues present in different codebases.
+This repository stores reproductive samples of issues present in different codebases. Reproductive **samples are stored in branches**.
 
-Reproductive **samples are stored in branches**.
+## 👨‍💻 Trying it out
+
+To try an issue out I recommend:
+
+```sh
+# 🧪 Cloning the repository
+git clone https://github.com/alestiago/issues.git
+
+# 🪧 Checking the branch you're interested in
+git checkout <branch-name>
+
+# 📖 Reading the README.md of the branch for further instructions
+open README.md
+```
 
 ## 🪵 Branch naming convention
 
@@ -18,4 +31,4 @@ Where:
 - `<issue-number>` is the number of the GitHub issue that links to the problem.
 - `YYYYMMDD` is the date where the issue was first reproduced in the sample.
 
-For example, a valid branch name would be `very_good_cli-648-20230220`, where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the date where the sample reproduced the issue was on the 20th of February of 2023.
+For example, a valid branch name would be `very_good_cli-648-20230220`, where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the first date where the sample reproduced the issue was the 20th of February of 2023.
