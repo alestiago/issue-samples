@@ -1,4 +1,4 @@
-# Issue repository
+# 🐛 Issues
 
 This repository stores reproductive samples of issues present in different codebases. Reproductive **samples are stored in branches**.
 
@@ -33,6 +33,6 @@ Where:
 
 For example:
 
-- `very_good_cli-648-20230220` is a valid name. Where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the first date where the sample reproduced the issue was the 20th of February of 2023.
+- `very_good_cli-648-20230220` is a valid name. Where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the first date where the sample reproduced the issue was the 20th of February, 2023.
 
 > **Note**: If a particular sample doesn't have a matching issue yet, the branch is named with a leading underscore and the `<issue-number>` is a brief description of its aim.
