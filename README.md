@@ -2,7 +2,7 @@
 
 Repository: [dart_custom_lint](https://github.com/invertase/dart_custom_lint)
 
-Issue: [issue](https://github.com/invertase/dart_custom_lint/issues/104)
+Issue: [Allow running custom_lint in packages with different versions](https://github.com/invertase/dart_custom_lint/issues/104)
 
 ## 🐛 Reproductive steps
 
