@@ -10,7 +10,7 @@ To try an issue out I recommend:
 # 🧪 Cloning the repository
 git clone https://github.com/alestiago/issues.git
 
-# 🪧 Checking the branch you're interested in
+# 🪵 Checking the branch you're interested in
 git checkout <branch-name>
 
 # 📖 Reading the README.md of the branch for further instructions
@@ -32,3 +32,5 @@ Where:
 - `YYYYMMDD` is the date where the issue was first reproduced in the sample.
 
 For example, a valid branch name would be `very_good_cli-648-20230220`, where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the first date where the sample reproduced the issue was the 20th of February of 2023.
+
+> 📝 **NOTE**: If a particular sample doesn't have a matching issue yet, the branch is named with a leading underscore and the `<issue-number>` is a brief description of its aim.
