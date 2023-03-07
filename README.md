@@ -1,10 +1,10 @@
-# Alejandro's issue repository
+# Issue repository
 
-This repository stores reproductive samples of issues from different codebases.
+This repository stores reproductive samples of issues present in different codebases.
 
-Although the repository might seem empty, it is not. Reproductive samples are stored in branches.
+Reproductive **samples are stored in branches**.
 
-### 🪵 Branch naming convention
+## 🪵 Branch naming convention
 
 Branches follow the naming convention:
 
@@ -18,4 +18,4 @@ Where:
 - `<issue-number>` is the number of the GitHub issue that links to the problem.
 - `YYYYMMDD` is the date where the issue was first reproduced in the sample.
 
-For example, a valid branch name would be `very_good_cli-648-20230220`, where the GitHub repository is (very_good_cli)[https://github.com/VeryGoodOpenSource/very_good_cli], the issue is (648)[https://github.com/VeryGoodOpenSource/very_good_cli/issues/648] and the date where the sample reproduced the issue was on the 20th of February of 2023.
+For example, a valid branch name would be `very_good_cli-648-20230220`, where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the date where the sample reproduced the issue was on the 20th of February of 2023.
