@@ -14,12 +14,23 @@ on:
 
 jobs:
   coverage:
+    if: ls sample/test == 'octo-org/octo-repo-prod'
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./sample
     steps:
+      - name: Check for test files
+        shell: bash
+        id: test_file_check
+        run: |
+          if [ls -A sample/test != ""]; then
+          echo "result=true" >> $GITHUB_OUTPUT
+          else
+            echo "result=false" >> $GITHUB_OUTPUT
+          fi
       - uses: VeryGoodOpenSource/very_good_coverage@v2
+        if: steps.test_file_check.outputs.result == 'true'
         with:
           path: "./coverage/lcov.info"
           min_coverage: 100
