@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: sample/
+        working-directory: ./sample/
     steps:
       - name: Check for test files
         id: test_file_check
-        run: if test -n "$(find ./test/ -maxdepth 0 -empty)"; then echo "result=true" >> $GITHUB_OUTPUT ; else echo "result=false" >> $GITHUB_OUTPUT; fi
+        run: echo "result=false" >> $GITHUB_OUTPUT
       - name: Very Good Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v2
         with:
