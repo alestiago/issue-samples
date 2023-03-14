@@ -16,7 +16,6 @@ jobs:
         working-directory: sample/
     steps:
       - name: Check for test files
-        shell: bash
         id: test_file_check
         run: if [ "$(ls -A sample/test)" ]; then echo "result=true" >> $GITHUB_OUTPUT ; else echo "result=false" >> $GITHUB_OUTPUT; fi
       - name: Very Good Coverage
