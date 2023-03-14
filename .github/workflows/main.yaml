@@ -23,13 +23,9 @@ jobs:
       - name: Check for test files
         shell: bash
         id: test_file_check
-        run: |
-          if [ "$(ls -A sample/test)" ]; then
-              echo "result=true"
-          else
-              echo "result=false"
-          fi
-      - uses: VeryGoodOpenSource/very_good_coverage@v2
+        run: if [ "$(ls -A sample/test)" ]; then echo "result=true" >> $GITHUB_OUTPUT ; else echo "result=false" >> $GITHUB_OUTPUT; fi
+      - name: Very Good Coverage
+        uses: VeryGoodOpenSource/very_good_coverage@v2
         if: steps.test_file_check.outputs.result == 'true'
         with:
           path: "./coverage/lcov.info"
