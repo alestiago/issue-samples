@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./sample
+        working-directory: sample
     steps:
       - name: Check for test files
         id: test_file_check
