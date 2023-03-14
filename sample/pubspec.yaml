@@ -1,0 +1,7 @@
+name: sample
+description: A sample to show how to deal with empty coverage.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"

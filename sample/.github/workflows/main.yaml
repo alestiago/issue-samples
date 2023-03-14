@@ -1,0 +1,20 @@
+name: sample_coverage
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  coverage:
+    uses: VeryGoodOpenSource/very_good_coverage@v2
+    with:
+      path: "./coverage/lcov.info"
+      min_coverage: 100
