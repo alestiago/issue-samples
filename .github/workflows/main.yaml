@@ -11,14 +11,11 @@ on:
 jobs:
   coverage:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: sample
     steps:
       - uses: actions/checkout@v2
       - name: Check for test files
         id: test_file_check
-        run: if [ "$(ls -A test)" ]; then echo "result=true" >> $GITHUB_OUTPUT ; else echo "result=false" >> $GITHUB_OUTPUT; fi
+        run: if [ -s "sample/coverage/lcov.info" ]; then echo "result=true" >> $GITHUB_OUTPUT ; else echo "result=false" >> $GITHUB_OUTPUT; fi
       - name: Very Good Coverage
         if: steps.test_file_check.outputs.result == 'true'
         uses: VeryGoodOpenSource/very_good_coverage@v2
