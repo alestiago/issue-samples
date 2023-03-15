@@ -23,5 +23,5 @@ jobs:
         if: steps.test_file_check.outputs.result == 'true'
         uses: VeryGoodOpenSource/very_good_coverage@v2
         with:
-          path: "./coverage/lcov.info"
+          path: "coverage/lcov.info"
           min_coverage: 100
