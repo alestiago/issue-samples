@@ -19,6 +19,7 @@ jobs:
         id: test_file_check
         run: echo "result=false" >> $GITHUB_OUTPUT
       - name: Very Good Coverage
+        if: steps.test_file_check.outputs.result == 'true'
         uses: VeryGoodOpenSource/very_good_coverage@v2
         with:
           path: "./coverage/lcov.info"
