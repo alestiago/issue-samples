@@ -1,0 +1,20 @@
+name: sample_coverage
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Very Good Coverage
+        uses: VeryGoodOpenSource/very_good_coverage@v2
+        with:
+          path: "lcov.info"
+          min_coverage: 100
