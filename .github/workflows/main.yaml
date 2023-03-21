@@ -14,10 +14,11 @@ on:
 
 jobs:
   semantic-pull-request:
-    if: false
+    if: false # Remove this line to enable the semantic pull request check.
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/semantic_pull_request.yml@v1
 
   build:
+    timeout-minutes: 1
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
     with:
       flutter_channel: stable
