@@ -1,6 +1,2 @@
-# Ignoring all files:
-*
-
-# Except these files:
-!README.md
-!.gitignore
+# MacOS
+.DS_Store
