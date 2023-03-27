@@ -6,13 +6,13 @@ Issue: [fix: Cannot start two dart_frog instances at the same time](https://gith
 
 ## Reproductive steps
 
-1. Open a dev server at port 7100 (from `sample/`)
+1. Open a dev server at port 7100 (from `sample/`):
 
 ```sh
 dart_frog dev -p 7100
 ```
 
-2.  Open a dev server at port 7200
+2.  Open a dev server at port 7200 (from `sample/`):
 
 ```sh
 dart_frog dev -p 7200
