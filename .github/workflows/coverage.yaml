@@ -13,9 +13,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
       - name: 👀 View Coverage
-        run: cat coverage/lcov.info
+        run: cat extensions/vscode/coverage/lcov.info
+
       - name: 📊 Check Code Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v2
         with:
-          path: coverage/lcov.info
+          path: extensions/vscode/coverage/lcov.info
