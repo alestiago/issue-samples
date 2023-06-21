@@ -9,7 +9,7 @@ jobs:
       run:
         working-directory: ./
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 👀 View Coverage
