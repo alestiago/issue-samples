@@ -13,9 +13,9 @@ jobs:
 
     steps:
       - name: 👀 View Coverage
-        run: cat lcov.info
+        run: cat ./lcov.info
 
       - name: 📊 Check Code Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v2.1.0
         with:
-          path: lcov.info
+          path: ./lcov.info
