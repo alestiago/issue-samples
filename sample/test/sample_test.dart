@@ -3,6 +3,11 @@ import 'package:test/test.dart';
 
 void main() {
   test('stdio', () {
-    expect(stdio(), isNotNull);
+    final foo = stdio();
+    expect(foo, isNotNull);
+  });
+
+  test('another test', () async {
+    await Future.delayed(const Duration(seconds: 1));
   });
 }
