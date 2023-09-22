@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 
 void main() {
   test('stdio', () {
-    final foo = stdio();
+    final foo = SampleClass();
     expect(foo, isNotNull);
   });
 

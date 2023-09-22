@@ -1,5 +1,7 @@
 import 'dart:io' as io;
 
-io.Stdin stdio() {
-  return io.stdin;
+class SampleClass {
+  SampleClass() : stdin = io.stdin;
+
+  final io.Stdin stdin;
 }
