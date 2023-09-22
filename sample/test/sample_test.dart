@@ -5,12 +5,8 @@ import 'dart:io' as io;
 void main() {
   test('stdio', () {
     final input = io.stdin;
-    io.stdioType(input);
+    final type = io.stdioType(input);
     expect(input, isNotNull);
-  });
-
-  test('another test', () async {
-    await Future.delayed(const Duration(seconds: 1));
-    expect(true, isTrue);
+    print('type: $type');
   });
 }
