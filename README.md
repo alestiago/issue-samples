@@ -2,7 +2,7 @@
 
 Repository: [archive](https://github.com/brendan-duncan/archive)
 
-Issue: [Allow running custom_lint in packages with different versions](https://github.com/invertase/dart_custom_lint/issues/104)
+Issue: [fix: nested zipDirectory filename causes zipping corrupted zip](https://github.com/brendan-duncan/archive/issues/297)
 
 ## 🐛 Reproductive steps
 
