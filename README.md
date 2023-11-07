@@ -1,38 +1,23 @@
-# Issues
+## References
 
-This repository stores reproductive samples of issues present in different codebases. Reproductive **samples are stored in branches**.
+Repository: [archive](https://github.com/brendan-duncan/archive)
 
-## 👨‍💻 Trying it out
+Issue: [Allow running custom_lint in packages with different versions](https://github.com/invertase/dart_custom_lint/issues/104)
 
-To try an issue out I recommend:
+## 🐛 Reproductive steps
+
+1. Get all packages dependencies:
 
 ```sh
-# 🧪 Cloning the repository
-git clone https://github.com/alestiago/issues.git
-
-# 🪵 Checking the branch you're interested in
-git checkout <branch-name>
-
-# 📖 Reading the README.md of the branch for further instructions
-open README.md
+# Get project dependencies (from sample/)
+dart pub get
 ```
 
-## 🪵 Branch naming convention
+2. Run the sample code:
 
-Branches follow the naming convention:
-
+```sh
+# Run the sample code (from sample/)
+dart run lib/sample.dart
 ```
-<codebase-name>-<issue-number>-YYYYMMDD
-```
 
-Where:
-
-- `<codebase-name>` is the name of the GitHub repository that stores the tested codebase.
-- `<issue-number>` is the number of the GitHub issue that links to the problem.
-- `YYYYMMDD` is the date where the issue was first reproduced in the sample.
-
-For example:
-
-- `very_good_cli-648-20230220` is a valid name. Where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the first date where the sample reproduced the issue was the 20th of February, 2023.
-
-> **Note**: If a particular sample doesn't have a matching issue yet, the branch is named with a leading underscore and the `<issue-number>` is a brief description of its aim.
+3. Unzip the `output_zip/output2.zip` and see the nested corrupted zip file.
