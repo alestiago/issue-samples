@@ -1,6 +1,1 @@
-# Ignoring all files:
-*
-
-# Except these files:
-!README.md
-!.gitignore
+.DS_STORE
