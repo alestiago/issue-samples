@@ -36,3 +36,23 @@ For example:
 - `very_good_cli-648-20230220` is a valid name. Where the GitHub repository is [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli), the issue is [648](https://github.com/VeryGoodOpenSource/very_good_cli/issues/648) and the first date where the sample reproduced the issue was the 20th of February, 2023.
 
 > **Note**: If a particular sample doesn't have a matching issue yet, the branch is named with a leading underscore and the `<issue-number>` is a brief description of its aim.
+
+##
+
+```sh
+# from root
+dart_frog create my_project
+```
+
+```sh
+# from root
+dart create my_package
+```
+
+```sh
+dart pub add 'my_package:{"path":"../still_my_package"}'
+```
+
+```sh
+dart_frog build
+```
