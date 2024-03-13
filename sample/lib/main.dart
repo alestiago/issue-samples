@@ -70,7 +70,6 @@ class _Player extends PositionComponent with KeyboardHandler {
   @override
   FutureOr<void> onLoad() async {
     await super.onLoad();
-
     add(
       RectangleComponent.square(
         size: 50,
